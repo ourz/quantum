@@ -1,8 +1,8 @@
-# Estimates py on a quantum circuit with n cubits. The algorithm iteratively searches for a solution
+# Estimates \pi on a quantum circuit with n cubits. The algorithm iteratively searches for a solution
 # to the equation f(x) - x = 0, where f is a quantum circuit parameterized by one parameter. This 
 # parameter represents an estimate of pi and is used instead of the actual value of pi in the inverse 
 # quantum fourier transform . With x = \pi, the equation f(x) = x is satisfied with equality. The error
-# of the estimate decreases with the number of cubits.
+# of the estimate decreases with the number of cubits. The actual secant search is done classically.
 
 def initialize_qubits(given_circuit, measurement_qubits, target_qubit):
     given_circuit.h(measurement_qubits)
