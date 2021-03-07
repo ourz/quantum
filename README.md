@@ -9,3 +9,5 @@ estimate pi.ipynb estimates pi using an approximation of the quantum inverse Fou
 spsa_learn_probability_dist.ipynb trains a parameterized quantum circuit to be able to sample from a user-defined probability distribution. The program attemps to minimize the entropy using SPSA gradient search.
 
 bayesian network simulation.ipynb implements a simple v-shaped Bayesian network on a quantum circuit and samples from it.
+
+markov.ipynb implements a circuit that simulates n steps for a simple Markov chain.
